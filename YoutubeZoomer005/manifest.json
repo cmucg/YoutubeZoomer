@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "YoutubeZoomer",
+    "version": "1.5",
+    "description": "Press E to zoom-out video to make margin for subtitle, press D to zoom-in.",
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*", "https://youtube.com/*"],
+        "js": ["YoutubeZoomer.js"]
+      }
+    ]
+  }
+  
