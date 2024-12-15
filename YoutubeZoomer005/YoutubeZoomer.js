@@ -25,7 +25,7 @@ function cgTestRepeat() {
     let cgCharsSet = [... new Set(cgChars)]  // remove repeating chars
     console.log(cgCharsSet)
     
-    return cgChars.length>=10 && cgCharsSet.length < 0.6*cgChars.length // repeating true or false
+    return cgChars.length>=2 && cgCharsSet.length < 0.6*cgChars.length // repeating true or false
 }
 
 function sleep(ms) {
